@@ -1,0 +1,509 @@
+2023-04-24 23:22:54.182 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-24 23:22:54.368 +01:00 [DBG] Hosting starting
+2023-04-24 23:22:54.436 +01:00 [INF] User profile is available. Using 'C:\Users\Izuchukwu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-24 23:22:54.444 +01:00 [DBG] Reading data from file 'C:\Users\Izuchukwu\AppData\Local\ASP.NET\DataProtection-Keys\key-a9ee9731-873b-44d0-89e0-f9302b95fa11.xml'.
+2023-04-24 23:22:54.543 +01:00 [DBG] Found key {a9ee9731-873b-44d0-89e0-f9302b95fa11}.
+2023-04-24 23:22:54.578 +01:00 [DBG] Considering key {a9ee9731-873b-44d0-89e0-f9302b95fa11} with expiration date 2023-06-29 22:58:47Z as default key.
+2023-04-24 23:22:54.582 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-24 23:22:54.587 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-04-24 23:22:54.590 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-24 23:22:54.596 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-04-24 23:22:54.598 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-04-24 23:22:54.601 +01:00 [DBG] Using key {a9ee9731-873b-44d0-89e0-f9302b95fa11} as the default key.
+2023-04-24 23:22:54.602 +01:00 [DBG] Key ring with default key {a9ee9731-873b-44d0-89e0-f9302b95fa11} was loaded during application startup.
+2023-04-24 23:22:56.449 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7487F2995D99A2BC35BA80B7B472076486A49BFD)
+2023-04-24 23:22:56.865 +01:00 [INF] Now listening on: https://localhost:7034
+2023-04-24 23:22:56.865 +01:00 [INF] Now listening on: http://localhost:5020
+2023-04-24 23:22:56.865 +01:00 [DBG] Loaded hosting startup assembly MyPersonalProject
+2023-04-24 23:22:56.865 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-24 23:22:56.865 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-24 23:22:56.865 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-24 23:22:56.865 +01:00 [INF] Hosting environment: Development
+2023-04-24 23:22:56.865 +01:00 [INF] Content root path: C:\Users\Izuchukwu\source\repos\MyPersonalProject\
+2023-04-24 23:22:56.865 +01:00 [DBG] Hosting started
+2023-04-24 23:22:57.598 +01:00 [DBG] Connection id "0HMQ529QDF59D" accepted.
+2023-04-24 23:22:57.598 +01:00 [DBG] Connection id "0HMQ529QDF59C" accepted.
+2023-04-24 23:22:57.600 +01:00 [DBG] Connection id "0HMQ529QDF59D" started.
+2023-04-24 23:22:57.600 +01:00 [DBG] Connection id "0HMQ529QDF59C" started.
+2023-04-24 23:23:00.713 +01:00 [DBG] Connection id "0HMQ529QDF59E" accepted.
+2023-04-24 23:23:00.716 +01:00 [DBG] Connection id "0HMQ529QDF59E" started.
+2023-04-24 23:23:00.719 +01:00 [DBG] Connection id "0HMQ529QDF59F" accepted.
+2023-04-24 23:23:00.719 +01:00 [DBG] Connection id "0HMQ529QDF59F" started.
+2023-04-24 23:23:01.456 +01:00 [DBG] Connection id "0HMQ529QDF59F" received FIN.
+2023-04-24 23:23:01.771 +01:00 [DBG] Connection 0HMQ529QDF59F established using the following protocol: "Tls12"
+2023-04-24 23:23:01.771 +01:00 [DBG] Connection 0HMQ529QDF59E established using the following protocol: "Tls12"
+2023-04-24 23:23:02.379 +01:00 [DBG] Connection id "0HMQ529QDF59F" is closed. The last processed stream ID was 0.
+2023-04-24 23:23:02.589 +01:00 [DBG] Connection id "0HMQ529QDF59F" sending FIN because: "The client closed the connection."
+2023-04-24 23:23:02.634 +01:00 [DBG] Connection id "0HMQ529QDF59F" stopped.
+2023-04-24 23:23:03.448 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger - -
+2023-04-24 23:23:04.391 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-24 23:23:05.765 +01:00 [DBG] No candidates found for the request path '/swagger'
+2023-04-24 23:23:05.766 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:23:09.077 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/index.html - -
+2023-04-24 23:23:09.078 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-04-24 23:23:09.078 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:23:09.402 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger - - - 301 0 - 5635.9072ms
+2023-04-24 23:23:09.425 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-04-24 23:23:09.425 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-04-24 23:23:09.425 +01:00 [DBG] Connection id "0HMQ529QDF59C" stopped.
+2023-04-24 23:23:09.425 +01:00 [DBG] Connection id "0HMQ529QDF59D" stopped.
+2023-04-24 23:23:09.425 +01:00 [DBG] Connection id "0HMQ529QDF59C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-24 23:23:09.425 +01:00 [DBG] Connection id "0HMQ529QDF59D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-24 23:23:11.344 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-24 23:23:14.814 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/swagger-ui-bundle.js - -
+2023-04-24 23:23:14.814 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - -
+2023-04-24 23:23:14.814 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/swagger-ui.css - -
+2023-04-24 23:23:14.814 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-04-24 23:23:14.814 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-04-24 23:23:14.814 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:23:14.814 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-04-24 23:23:14.814 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:23:14.814 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:23:14.815 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-24 23:23:14.817 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 5739.9662ms
+2023-04-24 23:23:14.856 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 23:23:14.861 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 4.8012ms
+2023-04-24 23:23:14.866 +01:00 [DBG] Connection id "0HMQ529QDF59G" accepted.
+2023-04-24 23:23:14.866 +01:00 [DBG] Connection id "0HMQ529QDF59G" started.
+2023-04-24 23:23:15.223 +01:00 [DBG] Connection 0HMQ529QDF59G established using the following protocol: "Tls12"
+2023-04-24 23:23:15.224 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 23:23:15.225 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.8448ms
+2023-04-24 23:23:15.626 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-04-24 23:23:15.627 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/swagger-ui.css - - - 200 143632 text/css 813.4226ms
+2023-04-24 23:23:15.649 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-04-24 23:23:15.649 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 835.4106ms
+2023-04-24 23:23:15.654 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - -
+2023-04-24 23:23:15.654 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-04-24 23:23:15.654 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:23:15.656 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-04-24 23:23:15.656 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 2.3209ms
+2023-04-24 23:23:16.831 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-04-24 23:23:16.831 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 2017.1169ms
+2023-04-24 23:23:17.189 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/swagger-ui-bundle.js - -
+2023-04-24 23:23:17.190 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-04-24 23:23:17.190 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:23:17.199 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-04-24 23:23:17.199 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 9.5103ms
+2023-04-24 23:23:17.903 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-04-24 23:23:17.903 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-04-24 23:23:17.903 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:23:23.363 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5460.3379ms
+2023-04-24 23:25:52.494 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-24 23:25:52.690 +01:00 [DBG] Hosting starting
+2023-04-24 23:25:52.719 +01:00 [INF] User profile is available. Using 'C:\Users\Izuchukwu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-24 23:25:52.722 +01:00 [DBG] Reading data from file 'C:\Users\Izuchukwu\AppData\Local\ASP.NET\DataProtection-Keys\key-a9ee9731-873b-44d0-89e0-f9302b95fa11.xml'.
+2023-04-24 23:25:52.730 +01:00 [DBG] Found key {a9ee9731-873b-44d0-89e0-f9302b95fa11}.
+2023-04-24 23:25:52.741 +01:00 [DBG] Considering key {a9ee9731-873b-44d0-89e0-f9302b95fa11} with expiration date 2023-06-29 22:58:47Z as default key.
+2023-04-24 23:25:52.743 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-24 23:25:52.745 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-04-24 23:25:52.746 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-24 23:25:52.750 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-04-24 23:25:52.752 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-04-24 23:25:52.754 +01:00 [DBG] Using key {a9ee9731-873b-44d0-89e0-f9302b95fa11} as the default key.
+2023-04-24 23:25:52.755 +01:00 [DBG] Key ring with default key {a9ee9731-873b-44d0-89e0-f9302b95fa11} was loaded during application startup.
+2023-04-24 23:25:52.900 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7487F2995D99A2BC35BA80B7B472076486A49BFD)
+2023-04-24 23:25:52.939 +01:00 [INF] Now listening on: https://localhost:7034
+2023-04-24 23:25:52.939 +01:00 [INF] Now listening on: http://localhost:5020
+2023-04-24 23:25:52.939 +01:00 [DBG] Loaded hosting startup assembly MyPersonalProject
+2023-04-24 23:25:52.939 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-24 23:25:52.939 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-24 23:25:52.939 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-24 23:25:52.939 +01:00 [INF] Hosting environment: Development
+2023-04-24 23:25:52.939 +01:00 [INF] Content root path: C:\Users\Izuchukwu\source\repos\MyPersonalProject\
+2023-04-24 23:25:52.939 +01:00 [DBG] Hosting started
+2023-04-24 23:25:53.309 +01:00 [DBG] Connection id "0HMQ52BEQ0UQI" accepted.
+2023-04-24 23:25:53.309 +01:00 [DBG] Connection id "0HMQ52BEQ0UQJ" accepted.
+2023-04-24 23:25:53.310 +01:00 [DBG] Connection id "0HMQ52BEQ0UQI" started.
+2023-04-24 23:25:53.310 +01:00 [DBG] Connection id "0HMQ52BEQ0UQJ" started.
+2023-04-24 23:25:53.328 +01:00 [DBG] Connection id "0HMQ52BEQ0UQI" received FIN.
+2023-04-24 23:25:53.328 +01:00 [DBG] Connection id "0HMQ52BEQ0UQJ" received FIN.
+2023-04-24 23:25:53.390 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-24 23:25:53.390 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-24 23:25:53.477 +01:00 [DBG] Connection id "0HMQ52BEQ0UQI" stopped.
+2023-04-24 23:25:53.477 +01:00 [DBG] Connection id "0HMQ52BEQ0UQJ" stopped.
+2023-04-24 23:25:53.480 +01:00 [DBG] Connection id "0HMQ52BEQ0UQJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-24 23:25:53.480 +01:00 [DBG] Connection id "0HMQ52BEQ0UQI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-24 23:25:53.580 +01:00 [DBG] Connection id "0HMQ52BEQ0UQK" accepted.
+2023-04-24 23:25:53.581 +01:00 [DBG] Connection id "0HMQ52BEQ0UQK" started.
+2023-04-24 23:25:53.643 +01:00 [DBG] Connection 0HMQ52BEQ0UQK established using the following protocol: "Tls12"
+2023-04-24 23:25:53.708 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/index.html - -
+2023-04-24 23:25:53.751 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-24 23:25:53.776 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-04-24 23:25:53.777 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:25:53.876 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-24 23:25:54.062 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 23:25:54.066 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-24 23:25:54.072 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 9.6059ms
+2023-04-24 23:25:54.072 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 370.1896ms
+2023-04-24 23:25:54.111 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-24 23:25:54.176 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.1121ms
+2023-04-24 23:25:54.543 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-04-24 23:25:54.544 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-04-24 23:25:54.544 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:25:54.747 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 203.1867ms
+2023-04-24 23:25:55.894 +01:00 [DBG] Connection id "0HMQ52BEQ0UQL" accepted.
+2023-04-24 23:25:55.894 +01:00 [DBG] Connection id "0HMQ52BEQ0UQL" started.
+2023-04-24 23:25:55.899 +01:00 [DBG] Connection 0HMQ52BEQ0UQL established using the following protocol: "Tls12"
+2023-04-24 23:25:55.900 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 23:25:55.900 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-24 23:25:55.901 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.5799ms
+2023-04-24 23:25:55.910 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.7518ms
+2023-04-24 23:26:54.889 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/api/Contacts?pageNumber=1&pageSize=3 - -
+2023-04-24 23:26:54.905 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Contacts'
+2023-04-24 23:26:54.909 +01:00 [DBG] Endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)' with route pattern 'api/Contacts' is valid for the request path '/api/Contacts'
+2023-04-24 23:26:54.948 +01:00 [DBG] Request matched endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-24 23:26:54.951 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-04-24 23:26:55.095 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-04-24 23:26:55.107 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'admin' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-24 23:26:55.117 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/api/Contacts?pageNumber=1&pageSize=3 - - - 500 - text/plain;+charset=utf-8 227.6483ms
+2023-04-24 23:27:16.315 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/api/Contacts?pageNumber=1&pageSize=3 - -
+2023-04-24 23:27:16.316 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Contacts'
+2023-04-24 23:27:16.316 +01:00 [DBG] Endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)' with route pattern 'api/Contacts' is valid for the request path '/api/Contacts'
+2023-04-24 23:27:16.316 +01:00 [DBG] Request matched endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-24 23:27:16.316 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-04-24 23:27:16.317 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-04-24 23:27:16.326 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'admin' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-24 23:27:16.327 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/api/Contacts?pageNumber=1&pageSize=3 - - - 500 - text/plain;+charset=utf-8 12.2468ms
+2023-04-24 23:27:28.593 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/api/Contacts?pageNumber=1&pageSize=3 - -
+2023-04-24 23:27:28.593 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Contacts'
+2023-04-24 23:27:28.593 +01:00 [DBG] Endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)' with route pattern 'api/Contacts' is valid for the request path '/api/Contacts'
+2023-04-24 23:27:28.593 +01:00 [DBG] Request matched endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-24 23:27:28.593 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-04-24 23:27:28.596 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-04-24 23:27:28.597 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'admin' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-24 23:27:28.597 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/api/Contacts?pageNumber=1&pageSize=3 - - - 500 - text/plain;+charset=utf-8 4.6003ms
+2023-04-24 23:54:20.244 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-24 23:54:20.370 +01:00 [DBG] Hosting starting
+2023-04-24 23:54:20.405 +01:00 [INF] User profile is available. Using 'C:\Users\Izuchukwu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-24 23:54:20.407 +01:00 [DBG] Reading data from file 'C:\Users\Izuchukwu\AppData\Local\ASP.NET\DataProtection-Keys\key-a9ee9731-873b-44d0-89e0-f9302b95fa11.xml'.
+2023-04-24 23:54:20.415 +01:00 [DBG] Found key {a9ee9731-873b-44d0-89e0-f9302b95fa11}.
+2023-04-24 23:54:20.424 +01:00 [DBG] Considering key {a9ee9731-873b-44d0-89e0-f9302b95fa11} with expiration date 2023-06-29 22:58:47Z as default key.
+2023-04-24 23:54:20.425 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-24 23:54:20.427 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-04-24 23:54:20.428 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-24 23:54:20.432 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-04-24 23:54:20.434 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-04-24 23:54:20.437 +01:00 [DBG] Using key {a9ee9731-873b-44d0-89e0-f9302b95fa11} as the default key.
+2023-04-24 23:54:20.438 +01:00 [DBG] Key ring with default key {a9ee9731-873b-44d0-89e0-f9302b95fa11} was loaded during application startup.
+2023-04-24 23:54:20.589 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7487F2995D99A2BC35BA80B7B472076486A49BFD)
+2023-04-24 23:54:20.620 +01:00 [INF] Now listening on: https://localhost:7034
+2023-04-24 23:54:20.620 +01:00 [INF] Now listening on: http://localhost:5020
+2023-04-24 23:54:20.620 +01:00 [DBG] Loaded hosting startup assembly MyPersonalProject
+2023-04-24 23:54:20.620 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-24 23:54:20.620 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-24 23:54:20.621 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-24 23:54:20.621 +01:00 [INF] Hosting environment: Development
+2023-04-24 23:54:20.621 +01:00 [INF] Content root path: C:\Users\Izuchukwu\source\repos\MyPersonalProject\
+2023-04-24 23:54:20.621 +01:00 [DBG] Hosting started
+2023-04-24 23:54:20.750 +01:00 [DBG] Connection id "0HMQ52RBLF77L" received FIN.
+2023-04-24 23:54:20.761 +01:00 [DBG] Connection id "0HMQ52RBLF77L" accepted.
+2023-04-24 23:54:20.762 +01:00 [DBG] Connection id "0HMQ52RBLF77L" started.
+2023-04-24 23:54:20.781 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-24 23:54:20.819 +01:00 [DBG] Connection id "0HMQ52RBLF77L" stopped.
+2023-04-24 23:54:20.823 +01:00 [DBG] Connection id "0HMQ52RBLF77L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-24 23:54:20.965 +01:00 [DBG] Connection id "0HMQ52RBLF77M" accepted.
+2023-04-24 23:54:20.965 +01:00 [DBG] Connection id "0HMQ52RBLF77M" started.
+2023-04-24 23:54:21.033 +01:00 [DBG] Connection 0HMQ52RBLF77M established using the following protocol: "Tls12"
+2023-04-24 23:54:21.103 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/index.html - -
+2023-04-24 23:54:21.143 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-24 23:54:21.168 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-04-24 23:54:21.168 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:54:21.263 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-24 23:54:21.414 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 23:54:21.420 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-24 23:54:21.422 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 7.3234ms
+2023-04-24 23:54:21.424 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 325.9641ms
+2023-04-24 23:54:21.463 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-24 23:54:21.490 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.4318ms
+2023-04-24 23:54:22.244 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-04-24 23:54:22.252 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-04-24 23:54:22.252 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:54:22.556 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 312.0224ms
+2023-04-24 23:54:22.889 +01:00 [DBG] Connection id "0HMQ52RBLF77N" accepted.
+2023-04-24 23:54:22.889 +01:00 [DBG] Connection id "0HMQ52RBLF77N" started.
+2023-04-24 23:54:22.895 +01:00 [DBG] Connection 0HMQ52RBLF77N established using the following protocol: "Tls12"
+2023-04-24 23:54:22.896 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 23:54:22.897 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-24 23:54:22.897 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 1.1217ms
+2023-04-24 23:54:22.901 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.9343ms
+2023-04-24 23:55:42.862 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7034/api/UsersAuth/register application/json 100
+2023-04-24 23:55:42.878 +01:00 [DBG] 1 candidate(s) found for the request path '/api/UsersAuth/register'
+2023-04-24 23:55:42.887 +01:00 [DBG] Endpoint 'MyPersonalProject.Controllers.UsersController.Register (MyPersonalProject)' with route pattern 'api/UsersAuth/register' is valid for the request path '/api/UsersAuth/register'
+2023-04-24 23:55:42.919 +01:00 [DBG] Request matched endpoint 'MyPersonalProject.Controllers.UsersController.Register (MyPersonalProject)'
+2023-04-24 23:55:42.921 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-04-24 23:55:43.015 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-04-24 23:55:43.019 +01:00 [INF] Executing endpoint 'MyPersonalProject.Controllers.UsersController.Register (MyPersonalProject)'
+2023-04-24 23:55:43.096 +01:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyPersonalProject.Models.Dto.RegistrationRequestDto) on controller MyPersonalProject.Controllers.UsersController (MyPersonalProject).
+2023-04-24 23:55:43.097 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-24 23:55:43.097 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-04-24 23:55:43.098 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-04-24 23:55:43.098 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-24 23:55:43.098 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-04-24 23:55:43.099 +01:00 [DBG] Executing controller factory for controller MyPersonalProject.Controllers.UsersController (MyPersonalProject)
+2023-04-24 23:55:43.476 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-04-24 23:55:43.766 +01:00 [DBG] Executed controller factory for controller MyPersonalProject.Controllers.UsersController (MyPersonalProject)
+2023-04-24 23:55:43.772 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto' ...
+2023-04-24 23:55:43.773 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto' using the name '' in request data ...
+2023-04-24 23:55:43.774 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-04-24 23:55:43.784 +01:00 [DBG] Connection id "0HMQ52RBLF77M", Request id "0HMQ52RBLF77M:00000009": started reading request body.
+2023-04-24 23:55:43.784 +01:00 [DBG] Connection id "0HMQ52RBLF77M", Request id "0HMQ52RBLF77M:00000009": done reading request body.
+2023-04-24 23:55:43.799 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'MyPersonalProject.Models.Dto.RegistrationRequestDto'
+2023-04-24 23:55:43.800 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto'.
+2023-04-24 23:55:43.800 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto'.
+2023-04-24 23:55:43.800 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto' ...
+2023-04-24 23:55:43.814 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto'.
+2023-04-24 23:55:44.820 +01:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-04-24 23:55:44.821 +01:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-04-24 23:55:45.446 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-04-24 23:55:45.642 +01:00 [DBG] Compiling query expression: 
+'DbSet<ApplicationUser>()
+    .FirstOrDefault(x => x.UserName == __username_0)'
+2023-04-24 23:55:46.241 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<ApplicationUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ApplicationUser.Id (string) Required PK AfterSave:Throw, 0], [Property: ApplicationUser.AccessFailedCount (int) Required, 1], [Property: ApplicationUser.ConcurrencyStamp (string) Concurrency, 2], [Property: ApplicationUser.Email (string) MaxLength(256), 3], [Property: ApplicationUser.EmailConfirmed (bool) Required, 4], [Property: ApplicationUser.LockoutEnabled (bool) Required, 5], [Property: ApplicationUser.LockoutEnd (DateTimeOffset?), 6], [Property: ApplicationUser.Name (string) Required, 7], [Property: ApplicationUser.NormalizedEmail (string) Index MaxLength(256), 8], [Property: ApplicationUser.NormalizedUserName (string) Index MaxLength(256), 9], [Property: ApplicationUser.PasswordHash (string), 10], [Property: ApplicationUser.PhoneNumber (string), 11], [Property: ApplicationUser.PhoneNumberConfirmed (bool) Required, 12], [Property: ApplicationUser.SecurityStamp (string), 13], [Property: ApplicationUser.TwoFactorEnabled (bool) Required, 14], [Property: ApplicationUser.UserName (string) MaxLength(256), 15] }
+        SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.Name, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+        FROM AspNetUsers AS a
+        WHERE a.UserName == @__username_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ApplicationUser>, 
+    MyPersonalProject.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-04-24 23:55:46.354 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-04-24 23:55:46.460 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (97ms).
+2023-04-24 23:55:46.494 +01:00 [DBG] Opening connection to database 'ContactDataBase' on server 'DESKTOP-1H2EPEO\SQLEXPRESS01'.
+2023-04-24 23:55:47.332 +01:00 [DBG] Opened connection to database 'ContactDataBase' on server 'DESKTOP-1H2EPEO\SQLEXPRESS01'.
+2023-04-24 23:55:47.368 +01:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__username_0
+2023-04-24 23:55:47.544 +01:00 [INF] Executed DbCommand (191ms) [Parameters=[@__username_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__username_0
+2023-04-24 23:55:47.562 +01:00 [DBG] A data reader was disposed.
+2023-04-24 23:55:47.567 +01:00 [DBG] Closing connection to database 'ContactDataBase' on server 'DESKTOP-1H2EPEO\SQLEXPRESS01'.
+2023-04-24 23:55:47.577 +01:00 [DBG] Closed connection to database 'ContactDataBase' on server 'DESKTOP-1H2EPEO\SQLEXPRESS01'.
+2023-04-24 23:55:47.590 +01:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric.
+2023-04-24 23:55:47.767 +01:00 [INF] Executed action MyPersonalProject.Controllers.UsersController.Register (MyPersonalProject) in 4657.805ms
+2023-04-24 23:55:47.771 +01:00 [INF] Executed endpoint 'MyPersonalProject.Controllers.UsersController.Register (MyPersonalProject)'
+2023-04-24 23:55:47.773 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Registration not successful
+   at MyPersonalProject.Repository.UserRepository.Register(RegistrationRequestDto registrationRequestDto) in C:\Users\Izuchukwu\source\repos\MyPersonalProject\Repository\UserRepository.cs:line 102
+   at MyPersonalProject.Controllers.UsersController.Register(RegistrationRequestDto model) in C:\Users\Izuchukwu\source\repos\MyPersonalProject\Controllers\UsersController.cs:line 56
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-24 23:55:47.852 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-04-24 23:55:47.860 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7034/api/UsersAuth/register application/json 100 - 500 - text/plain;+charset=utf-8 4998.0047ms
+2023-04-24 23:57:34.826 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-24 23:57:34.955 +01:00 [DBG] Hosting starting
+2023-04-24 23:57:34.985 +01:00 [INF] User profile is available. Using 'C:\Users\Izuchukwu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-24 23:57:34.988 +01:00 [DBG] Reading data from file 'C:\Users\Izuchukwu\AppData\Local\ASP.NET\DataProtection-Keys\key-a9ee9731-873b-44d0-89e0-f9302b95fa11.xml'.
+2023-04-24 23:57:34.995 +01:00 [DBG] Found key {a9ee9731-873b-44d0-89e0-f9302b95fa11}.
+2023-04-24 23:57:35.004 +01:00 [DBG] Considering key {a9ee9731-873b-44d0-89e0-f9302b95fa11} with expiration date 2023-06-29 22:58:47Z as default key.
+2023-04-24 23:57:35.005 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-24 23:57:35.008 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-04-24 23:57:35.009 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-24 23:57:35.012 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-04-24 23:57:35.014 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-04-24 23:57:35.016 +01:00 [DBG] Using key {a9ee9731-873b-44d0-89e0-f9302b95fa11} as the default key.
+2023-04-24 23:57:35.017 +01:00 [DBG] Key ring with default key {a9ee9731-873b-44d0-89e0-f9302b95fa11} was loaded during application startup.
+2023-04-24 23:57:35.155 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7487F2995D99A2BC35BA80B7B472076486A49BFD)
+2023-04-24 23:57:35.199 +01:00 [INF] Now listening on: https://localhost:7034
+2023-04-24 23:57:35.199 +01:00 [INF] Now listening on: http://localhost:5020
+2023-04-24 23:57:35.199 +01:00 [DBG] Loaded hosting startup assembly MyPersonalProject
+2023-04-24 23:57:35.199 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-24 23:57:35.199 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-24 23:57:35.199 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-24 23:57:35.199 +01:00 [INF] Hosting environment: Development
+2023-04-24 23:57:35.199 +01:00 [INF] Content root path: C:\Users\Izuchukwu\source\repos\MyPersonalProject\
+2023-04-24 23:57:35.199 +01:00 [DBG] Hosting started
+2023-04-24 23:57:35.436 +01:00 [DBG] Connection id "0HMQ52T5M3UA4" accepted.
+2023-04-24 23:57:35.436 +01:00 [DBG] Connection id "0HMQ52T5M3UA3" accepted.
+2023-04-24 23:57:35.437 +01:00 [DBG] Connection id "0HMQ52T5M3UA4" started.
+2023-04-24 23:57:35.437 +01:00 [DBG] Connection id "0HMQ52T5M3UA3" started.
+2023-04-24 23:57:35.463 +01:00 [DBG] Connection id "0HMQ52T5M3UA3" received FIN.
+2023-04-24 23:57:35.463 +01:00 [DBG] Connection id "0HMQ52T5M3UA4" received FIN.
+2023-04-24 23:57:35.487 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-24 23:57:35.487 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-24 23:57:35.538 +01:00 [DBG] Connection id "0HMQ52T5M3UA3" stopped.
+2023-04-24 23:57:35.538 +01:00 [DBG] Connection id "0HMQ52T5M3UA4" stopped.
+2023-04-24 23:57:35.540 +01:00 [DBG] Connection id "0HMQ52T5M3UA4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-24 23:57:35.540 +01:00 [DBG] Connection id "0HMQ52T5M3UA3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-24 23:57:35.787 +01:00 [DBG] Connection id "0HMQ52T5M3UA5" accepted.
+2023-04-24 23:57:35.788 +01:00 [DBG] Connection id "0HMQ52T5M3UA5" started.
+2023-04-24 23:57:35.848 +01:00 [DBG] Connection 0HMQ52T5M3UA5 established using the following protocol: "Tls12"
+2023-04-24 23:57:35.927 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/index.html - -
+2023-04-24 23:57:35.973 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-24 23:57:35.999 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-04-24 23:57:35.999 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:57:36.091 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-24 23:57:36.264 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 23:57:36.272 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-24 23:57:36.276 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 10.5312ms
+2023-04-24 23:57:36.276 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 353.0869ms
+2023-04-24 23:57:36.321 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-24 23:57:36.349 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.7014ms
+2023-04-24 23:57:36.652 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-04-24 23:57:36.652 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-04-24 23:57:36.652 +01:00 [DBG] Request did not match any endpoints
+2023-04-24 23:57:36.849 +01:00 [DBG] Connection id "0HMQ52T5M3UA6" accepted.
+2023-04-24 23:57:36.850 +01:00 [DBG] Connection id "0HMQ52T5M3UA6" started.
+2023-04-24 23:57:36.856 +01:00 [DBG] Connection 0HMQ52T5M3UA6 established using the following protocol: "Tls12"
+2023-04-24 23:57:36.857 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 23:57:36.858 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-24 23:57:36.858 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.6744ms
+2023-04-24 23:57:36.867 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.2287ms
+2023-04-24 23:57:36.916 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 264.6194ms
+2023-04-24 23:59:05.965 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7034/api/UsersAuth/register application/json 101
+2023-04-24 23:59:05.973 +01:00 [DBG] 1 candidate(s) found for the request path '/api/UsersAuth/register'
+2023-04-24 23:59:05.977 +01:00 [DBG] Endpoint 'MyPersonalProject.Controllers.UsersController.Register (MyPersonalProject)' with route pattern 'api/UsersAuth/register' is valid for the request path '/api/UsersAuth/register'
+2023-04-24 23:59:05.996 +01:00 [DBG] Request matched endpoint 'MyPersonalProject.Controllers.UsersController.Register (MyPersonalProject)'
+2023-04-24 23:59:05.996 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-04-24 23:59:06.052 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-04-24 23:59:06.054 +01:00 [INF] Executing endpoint 'MyPersonalProject.Controllers.UsersController.Register (MyPersonalProject)'
+2023-04-24 23:59:06.079 +01:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyPersonalProject.Models.Dto.RegistrationRequestDto) on controller MyPersonalProject.Controllers.UsersController (MyPersonalProject).
+2023-04-24 23:59:06.079 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-24 23:59:06.079 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-04-24 23:59:06.079 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-04-24 23:59:06.079 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-24 23:59:06.079 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-04-24 23:59:06.080 +01:00 [DBG] Executing controller factory for controller MyPersonalProject.Controllers.UsersController (MyPersonalProject)
+2023-04-24 23:59:06.216 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-04-24 23:59:06.350 +01:00 [DBG] Executed controller factory for controller MyPersonalProject.Controllers.UsersController (MyPersonalProject)
+2023-04-24 23:59:06.355 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto' ...
+2023-04-24 23:59:06.357 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto' using the name '' in request data ...
+2023-04-24 23:59:06.358 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-04-24 23:59:06.362 +01:00 [DBG] Connection id "0HMQ52T5M3UA5", Request id "0HMQ52T5M3UA5:00000009": started reading request body.
+2023-04-24 23:59:06.362 +01:00 [DBG] Connection id "0HMQ52T5M3UA5", Request id "0HMQ52T5M3UA5:00000009": done reading request body.
+2023-04-24 23:59:06.370 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'MyPersonalProject.Models.Dto.RegistrationRequestDto'
+2023-04-24 23:59:06.370 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto'.
+2023-04-24 23:59:06.370 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto'.
+2023-04-24 23:59:06.370 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto' ...
+2023-04-24 23:59:06.375 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MyPersonalProject.Models.Dto.RegistrationRequestDto'.
+2023-04-24 23:59:06.896 +01:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-04-24 23:59:06.896 +01:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-04-24 23:59:07.194 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-04-24 23:59:07.263 +01:00 [DBG] Compiling query expression: 
+'DbSet<ApplicationUser>()
+    .FirstOrDefault(x => x.UserName == __username_0)'
+2023-04-24 23:59:07.570 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<ApplicationUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ApplicationUser.Id (string) Required PK AfterSave:Throw, 0], [Property: ApplicationUser.AccessFailedCount (int) Required, 1], [Property: ApplicationUser.ConcurrencyStamp (string) Concurrency, 2], [Property: ApplicationUser.Email (string) MaxLength(256), 3], [Property: ApplicationUser.EmailConfirmed (bool) Required, 4], [Property: ApplicationUser.LockoutEnabled (bool) Required, 5], [Property: ApplicationUser.LockoutEnd (DateTimeOffset?), 6], [Property: ApplicationUser.Name (string) Required, 7], [Property: ApplicationUser.NormalizedEmail (string) Index MaxLength(256), 8], [Property: ApplicationUser.NormalizedUserName (string) Index MaxLength(256), 9], [Property: ApplicationUser.PasswordHash (string), 10], [Property: ApplicationUser.PhoneNumber (string), 11], [Property: ApplicationUser.PhoneNumberConfirmed (bool) Required, 12], [Property: ApplicationUser.SecurityStamp (string), 13], [Property: ApplicationUser.TwoFactorEnabled (bool) Required, 14], [Property: ApplicationUser.UserName (string) MaxLength(256), 15] }
+        SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.Name, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+        FROM AspNetUsers AS a
+        WHERE a.UserName == @__username_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ApplicationUser>, 
+    MyPersonalProject.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-04-24 23:59:07.628 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-04-24 23:59:07.671 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (37ms).
+2023-04-24 23:59:07.686 +01:00 [DBG] Opening connection to database 'ContactDataBase' on server 'DESKTOP-1H2EPEO\SQLEXPRESS01'.
+2023-04-24 23:59:08.062 +01:00 [DBG] Opened connection to database 'ContactDataBase' on server 'DESKTOP-1H2EPEO\SQLEXPRESS01'.
+2023-04-24 23:59:08.076 +01:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__username_0
+2023-04-24 23:59:08.148 +01:00 [INF] Executed DbCommand (76ms) [Parameters=[@__username_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__username_0
+2023-04-24 23:59:08.160 +01:00 [DBG] A data reader was disposed.
+2023-04-24 23:59:08.163 +01:00 [DBG] Closing connection to database 'ContactDataBase' on server 'DESKTOP-1H2EPEO\SQLEXPRESS01'.
+2023-04-24 23:59:08.172 +01:00 [DBG] Closed connection to database 'ContactDataBase' on server 'DESKTOP-1H2EPEO\SQLEXPRESS01'.
+2023-04-24 23:59:08.177 +01:00 [WRN] User password validation failed: PasswordRequiresDigit.
+2023-04-24 23:59:08.289 +01:00 [INF] Executed action MyPersonalProject.Controllers.UsersController.Register (MyPersonalProject) in 2205.8551ms
+2023-04-24 23:59:08.291 +01:00 [INF] Executed endpoint 'MyPersonalProject.Controllers.UsersController.Register (MyPersonalProject)'
+2023-04-24 23:59:08.292 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Registration not successful
+   at MyPersonalProject.Repository.UserRepository.Register(RegistrationRequestDto registrationRequestDto) in C:\Users\Izuchukwu\source\repos\MyPersonalProject\Repository\UserRepository.cs:line 103
+   at MyPersonalProject.Controllers.UsersController.Register(RegistrationRequestDto model) in C:\Users\Izuchukwu\source\repos\MyPersonalProject\Controllers\UsersController.cs:line 56
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-24 23:59:08.312 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-04-24 23:59:08.318 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7034/api/UsersAuth/register application/json 101 - 500 - text/plain;+charset=utf-8 2352.0896ms

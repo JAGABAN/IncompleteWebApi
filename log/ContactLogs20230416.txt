@@ -1,0 +1,295 @@
+2023-04-16 23:32:37.176 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-16 23:32:37.290 +01:00 [DBG] Hosting starting
+2023-04-16 23:32:37.429 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7487F2995D99A2BC35BA80B7B472076486A49BFD)
+2023-04-16 23:32:37.483 +01:00 [INF] Now listening on: https://localhost:7034
+2023-04-16 23:32:37.483 +01:00 [INF] Now listening on: http://localhost:5020
+2023-04-16 23:32:37.483 +01:00 [DBG] Loaded hosting startup assembly MyPersonalProject
+2023-04-16 23:32:37.484 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-16 23:32:37.484 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-16 23:32:37.484 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-16 23:32:37.484 +01:00 [INF] Hosting environment: Development
+2023-04-16 23:32:37.484 +01:00 [INF] Content root path: C:\Users\Izuchukwu\source\repos\MyPersonalProject\
+2023-04-16 23:32:37.484 +01:00 [DBG] Hosting started
+2023-04-16 23:32:37.533 +01:00 [DBG] Connection id "0HMPUP9TK3P2U" accepted.
+2023-04-16 23:32:37.533 +01:00 [DBG] Connection id "0HMPUP9TK3P2T" accepted.
+2023-04-16 23:32:37.534 +01:00 [DBG] Connection id "0HMPUP9TK3P2T" started.
+2023-04-16 23:32:37.534 +01:00 [DBG] Connection id "0HMPUP9TK3P2U" started.
+2023-04-16 23:32:37.583 +01:00 [DBG] Connection id "0HMPUP9TK3P2U" received FIN.
+2023-04-16 23:32:37.583 +01:00 [DBG] Connection id "0HMPUP9TK3P2T" received FIN.
+2023-04-16 23:32:37.614 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-16 23:32:37.614 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-16 23:32:37.705 +01:00 [DBG] Connection id "0HMPUP9TK3P2T" stopped.
+2023-04-16 23:32:37.705 +01:00 [DBG] Connection id "0HMPUP9TK3P2U" stopped.
+2023-04-16 23:32:37.709 +01:00 [DBG] Connection id "0HMPUP9TK3P2U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-16 23:32:37.709 +01:00 [DBG] Connection id "0HMPUP9TK3P2T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-16 23:32:37.969 +01:00 [DBG] Connection id "0HMPUP9TK3P2V" accepted.
+2023-04-16 23:32:37.970 +01:00 [DBG] Connection id "0HMPUP9TK3P2V" started.
+2023-04-16 23:32:38.040 +01:00 [DBG] Connection 0HMPUP9TK3P2V established using the following protocol: "Tls12"
+2023-04-16 23:32:38.123 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/index.html - -
+2023-04-16 23:32:38.176 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-16 23:32:38.207 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-04-16 23:32:38.207 +01:00 [DBG] Request did not match any endpoints
+2023-04-16 23:32:38.326 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-16 23:32:38.493 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-16 23:32:38.497 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-16 23:32:38.502 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 7.3057ms
+2023-04-16 23:32:38.502 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 385.3867ms
+2023-04-16 23:32:38.541 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-16 23:32:38.569 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.8925ms
+2023-04-16 23:32:39.013 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-16 23:32:39.014 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.3539ms
+2023-04-16 23:32:39.014 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-16 23:32:39.020 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.8974ms
+2023-04-16 23:32:39.271 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-04-16 23:32:39.271 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-04-16 23:32:39.271 +01:00 [DBG] Request did not match any endpoints
+2023-04-16 23:32:39.412 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.1978ms
+2023-04-16 23:35:56.548 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-16 23:35:56.641 +01:00 [DBG] Hosting starting
+2023-04-16 23:35:56.851 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7487F2995D99A2BC35BA80B7B472076486A49BFD)
+2023-04-16 23:35:56.918 +01:00 [INF] Now listening on: https://localhost:7034
+2023-04-16 23:35:56.918 +01:00 [INF] Now listening on: http://localhost:5020
+2023-04-16 23:35:56.918 +01:00 [DBG] Loaded hosting startup assembly MyPersonalProject
+2023-04-16 23:35:56.918 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-16 23:35:56.918 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-16 23:35:56.919 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-16 23:35:56.919 +01:00 [INF] Hosting environment: Development
+2023-04-16 23:35:56.919 +01:00 [INF] Content root path: C:\Users\Izuchukwu\source\repos\MyPersonalProject\
+2023-04-16 23:35:56.919 +01:00 [DBG] Hosting started
+2023-04-16 23:35:57.071 +01:00 [DBG] Connection id "0HMPUPBP339RO" received FIN.
+2023-04-16 23:35:57.071 +01:00 [DBG] Connection id "0HMPUPBP339RN" received FIN.
+2023-04-16 23:35:57.079 +01:00 [DBG] Connection id "0HMPUPBP339RN" accepted.
+2023-04-16 23:35:57.079 +01:00 [DBG] Connection id "0HMPUPBP339RO" accepted.
+2023-04-16 23:35:57.080 +01:00 [DBG] Connection id "0HMPUPBP339RO" started.
+2023-04-16 23:35:57.080 +01:00 [DBG] Connection id "0HMPUPBP339RN" started.
+2023-04-16 23:35:57.095 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-16 23:35:57.095 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-16 23:35:57.126 +01:00 [DBG] Connection id "0HMPUPBP339RO" stopped.
+2023-04-16 23:35:57.126 +01:00 [DBG] Connection id "0HMPUPBP339RN" stopped.
+2023-04-16 23:35:57.129 +01:00 [DBG] Connection id "0HMPUPBP339RN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-16 23:35:57.129 +01:00 [DBG] Connection id "0HMPUPBP339RO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-16 23:35:57.426 +01:00 [DBG] Connection id "0HMPUPBP339RP" accepted.
+2023-04-16 23:35:57.429 +01:00 [DBG] Connection id "0HMPUPBP339RP" started.
+2023-04-16 23:35:57.504 +01:00 [DBG] Connection 0HMPUPBP339RP established using the following protocol: "Tls12"
+2023-04-16 23:35:57.590 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/index.html - -
+2023-04-16 23:35:57.651 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-16 23:35:57.688 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-04-16 23:35:57.689 +01:00 [DBG] Request did not match any endpoints
+2023-04-16 23:35:57.892 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-16 23:35:58.071 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-16 23:35:58.077 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-16 23:35:58.082 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 10.3673ms
+2023-04-16 23:35:58.082 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 497.0658ms
+2023-04-16 23:35:58.125 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-16 23:35:58.157 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.6344ms
+2023-04-16 23:35:58.447 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-04-16 23:35:58.447 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-04-16 23:35:58.447 +01:00 [DBG] Request did not match any endpoints
+2023-04-16 23:35:58.593 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.4293ms
+2023-04-16 23:35:59.375 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-16 23:35:59.376 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.2209ms
+2023-04-16 23:35:59.377 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-16 23:35:59.385 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.3980ms
+2023-04-16 23:36:10.270 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/api/Contacts - -
+2023-04-16 23:36:10.279 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Contacts'
+2023-04-16 23:36:10.284 +01:00 [DBG] Endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)' with route pattern 'api/Contacts' is valid for the request path '/api/Contacts'
+2023-04-16 23:36:10.284 +01:00 [DBG] Request matched endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:36:10.286 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-04-16 23:36:10.289 +01:00 [INF] Executing endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:36:10.308 +01:00 [INF] Route matched with {action = "GetAllContacts", controller = "ContactBookAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MyPersonalProject.Models.Dto.ContactDto]] GetAllContacts() on controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject).
+2023-04-16 23:36:10.309 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-16 23:36:10.310 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-04-16 23:36:10.310 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-04-16 23:36:10.310 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-16 23:36:10.311 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-04-16 23:36:10.312 +01:00 [DBG] Executing controller factory for controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject)
+2023-04-16 23:36:10.313 +01:00 [DBG] Executed controller factory for controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject)
+2023-04-16 23:36:10.314 +01:00 [INF] Getting all contacts
+2023-04-16 23:36:10.316 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-04-16 23:36:10.321 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-04-16 23:36:10.322 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-04-16 23:36:10.323 +01:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2023-04-16 23:36:10.329 +01:00 [INF] Executed action MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject) in 12.0617ms
+2023-04-16 23:36:10.330 +01:00 [INF] Executed endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:36:10.330 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/api/Contacts - - - 406 0 - 60.1139ms
+2023-04-16 23:36:24.418 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/api/Contacts - -
+2023-04-16 23:36:24.419 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Contacts'
+2023-04-16 23:36:24.419 +01:00 [DBG] Endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)' with route pattern 'api/Contacts' is valid for the request path '/api/Contacts'
+2023-04-16 23:36:24.419 +01:00 [DBG] Request matched endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:36:24.419 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-04-16 23:36:24.420 +01:00 [INF] Executing endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:36:24.420 +01:00 [INF] Route matched with {action = "GetAllContacts", controller = "ContactBookAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MyPersonalProject.Models.Dto.ContactDto]] GetAllContacts() on controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject).
+2023-04-16 23:36:24.420 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-16 23:36:24.420 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-04-16 23:36:24.420 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-04-16 23:36:24.420 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-16 23:36:24.420 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-04-16 23:36:24.420 +01:00 [DBG] Executing controller factory for controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject)
+2023-04-16 23:36:24.420 +01:00 [DBG] Executed controller factory for controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject)
+2023-04-16 23:36:24.420 +01:00 [INF] Getting all contacts
+2023-04-16 23:36:24.421 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-04-16 23:36:24.421 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-04-16 23:36:24.421 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-04-16 23:36:24.421 +01:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2023-04-16 23:36:24.421 +01:00 [INF] Executed action MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject) in 0.7167ms
+2023-04-16 23:36:24.421 +01:00 [INF] Executed endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:36:24.421 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/api/Contacts - - - 406 0 - 3.5464ms
+2023-04-16 23:37:21.157 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-16 23:37:21.327 +01:00 [DBG] Hosting starting
+2023-04-16 23:37:21.531 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7487F2995D99A2BC35BA80B7B472076486A49BFD)
+2023-04-16 23:37:21.555 +01:00 [INF] Now listening on: https://localhost:7034
+2023-04-16 23:37:21.555 +01:00 [INF] Now listening on: http://localhost:5020
+2023-04-16 23:37:21.555 +01:00 [DBG] Loaded hosting startup assembly MyPersonalProject
+2023-04-16 23:37:21.555 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-16 23:37:21.555 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-16 23:37:21.556 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-16 23:37:21.556 +01:00 [INF] Hosting environment: Development
+2023-04-16 23:37:21.556 +01:00 [INF] Content root path: C:\Users\Izuchukwu\source\repos\MyPersonalProject\
+2023-04-16 23:37:21.556 +01:00 [DBG] Hosting started
+2023-04-16 23:37:22.004 +01:00 [DBG] Connection id "0HMPUPCID2PQQ" received FIN.
+2023-04-16 23:37:22.016 +01:00 [DBG] Connection id "0HMPUPCID2PQQ" accepted.
+2023-04-16 23:37:22.018 +01:00 [DBG] Connection id "0HMPUPCID2PQQ" started.
+2023-04-16 23:37:22.040 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-16 23:37:22.085 +01:00 [DBG] Connection id "0HMPUPCID2PQQ" stopped.
+2023-04-16 23:37:22.089 +01:00 [DBG] Connection id "0HMPUPCID2PQQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-16 23:37:22.623 +01:00 [DBG] Connection id "0HMPUPCID2PQR" accepted.
+2023-04-16 23:37:22.630 +01:00 [DBG] Connection id "0HMPUPCID2PQR" started.
+2023-04-16 23:37:22.705 +01:00 [DBG] Connection 0HMPUPCID2PQR established using the following protocol: "Tls12"
+2023-04-16 23:37:22.807 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/index.html - -
+2023-04-16 23:37:22.875 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-16 23:37:22.921 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-04-16 23:37:22.921 +01:00 [DBG] Request did not match any endpoints
+2023-04-16 23:37:23.069 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-16 23:37:23.222 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-16 23:37:23.226 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-16 23:37:23.233 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 9.1471ms
+2023-04-16 23:37:23.234 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 433.6880ms
+2023-04-16 23:37:23.248 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-16 23:37:23.248 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.2759ms
+2023-04-16 23:37:23.272 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-16 23:37:23.313 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.7878ms
+2023-04-16 23:37:23.641 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-04-16 23:37:23.642 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-04-16 23:37:23.642 +01:00 [DBG] Request did not match any endpoints
+2023-04-16 23:37:23.826 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 184.8048ms
+2023-04-16 23:37:24.456 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-16 23:37:24.464 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.6866ms
+2023-04-16 23:37:34.936 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/api/Contacts - -
+2023-04-16 23:37:34.950 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Contacts'
+2023-04-16 23:37:34.956 +01:00 [DBG] Endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)' with route pattern 'api/Contacts' is valid for the request path '/api/Contacts'
+2023-04-16 23:37:34.956 +01:00 [DBG] Request matched endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:37:34.957 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-04-16 23:37:34.964 +01:00 [INF] Executing endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:37:34.985 +01:00 [INF] Route matched with {action = "GetAllContacts", controller = "ContactBookAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MyPersonalProject.Models.Dto.ContactDto]] GetAllContacts() on controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject).
+2023-04-16 23:37:34.987 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-16 23:37:34.987 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-04-16 23:37:34.987 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-04-16 23:37:34.988 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-16 23:37:34.988 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-04-16 23:37:34.989 +01:00 [DBG] Executing controller factory for controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject)
+2023-04-16 23:37:34.989 +01:00 [DBG] Executed controller factory for controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject)
+2023-04-16 23:37:34.994 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-04-16 23:37:35.001 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-04-16 23:37:35.003 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-04-16 23:37:35.003 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyPersonalProject.Models.Dto.ContactDto, MyPersonalProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-16 23:37:35.021 +01:00 [INF] Executed action MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject) in 22.3877ms
+2023-04-16 23:37:35.022 +01:00 [INF] Executed endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:37:35.022 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/api/Contacts - - - 200 - application/json;+charset=utf-8 86.6513ms
+2023-04-16 23:37:47.345 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-16 23:37:47.446 +01:00 [DBG] Hosting starting
+2023-04-16 23:37:47.602 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7487F2995D99A2BC35BA80B7B472076486A49BFD)
+2023-04-16 23:37:47.633 +01:00 [INF] Now listening on: https://localhost:7034
+2023-04-16 23:37:47.633 +01:00 [INF] Now listening on: http://localhost:5020
+2023-04-16 23:37:47.633 +01:00 [DBG] Loaded hosting startup assembly MyPersonalProject
+2023-04-16 23:37:47.633 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-16 23:37:47.633 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-16 23:37:47.633 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-16 23:37:47.633 +01:00 [INF] Hosting environment: Development
+2023-04-16 23:37:47.633 +01:00 [INF] Content root path: C:\Users\Izuchukwu\source\repos\MyPersonalProject\
+2023-04-16 23:37:47.633 +01:00 [DBG] Hosting started
+2023-04-16 23:37:48.054 +01:00 [DBG] Connection id "0HMPUPCQ5GH2U" received FIN.
+2023-04-16 23:37:48.054 +01:00 [DBG] Connection id "0HMPUPCQ5GH2T" received FIN.
+2023-04-16 23:37:48.058 +01:00 [DBG] Connection id "0HMPUPCQ5GH2U" accepted.
+2023-04-16 23:37:48.058 +01:00 [DBG] Connection id "0HMPUPCQ5GH2T" accepted.
+2023-04-16 23:37:48.060 +01:00 [DBG] Connection id "0HMPUPCQ5GH2T" started.
+2023-04-16 23:37:48.060 +01:00 [DBG] Connection id "0HMPUPCQ5GH2U" started.
+2023-04-16 23:37:48.084 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-16 23:37:48.084 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-16 23:37:48.128 +01:00 [DBG] Connection id "0HMPUPCQ5GH2T" stopped.
+2023-04-16 23:37:48.128 +01:00 [DBG] Connection id "0HMPUPCQ5GH2U" stopped.
+2023-04-16 23:37:48.131 +01:00 [DBG] Connection id "0HMPUPCQ5GH2T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-16 23:37:48.131 +01:00 [DBG] Connection id "0HMPUPCQ5GH2U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-16 23:37:48.286 +01:00 [DBG] Connection id "0HMPUPCQ5GH2V" accepted.
+2023-04-16 23:37:48.286 +01:00 [DBG] Connection id "0HMPUPCQ5GH2V" started.
+2023-04-16 23:37:48.391 +01:00 [DBG] Connection 0HMPUPCQ5GH2V established using the following protocol: "Tls12"
+2023-04-16 23:37:48.495 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/index.html - -
+2023-04-16 23:37:48.561 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-16 23:37:48.603 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-04-16 23:37:48.603 +01:00 [DBG] Request did not match any endpoints
+2023-04-16 23:37:48.739 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-16 23:37:48.895 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-16 23:37:48.900 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-16 23:37:48.903 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 7.4777ms
+2023-04-16 23:37:48.903 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/index.html - - - 200 - text/html;charset=utf-8 416.3378ms
+2023-04-16 23:37:48.944 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-16 23:37:48.964 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.4482ms
+2023-04-16 23:37:49.262 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - -
+2023-04-16 23:37:49.262 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-04-16 23:37:49.262 +01:00 [DBG] Request did not match any endpoints
+2023-04-16 23:37:49.422 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 160.7243ms
+2023-04-16 23:37:50.122 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - -
+2023-04-16 23:37:50.123 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.4421ms
+2023-04-16 23:37:50.124 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/_vs/browserLink - -
+2023-04-16 23:37:50.130 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.9776ms
+2023-04-16 23:38:01.736 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7034/api/Contacts - -
+2023-04-16 23:38:01.744 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Contacts'
+2023-04-16 23:38:01.749 +01:00 [DBG] Endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)' with route pattern 'api/Contacts' is valid for the request path '/api/Contacts'
+2023-04-16 23:38:01.750 +01:00 [DBG] Request matched endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:38:01.751 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-04-16 23:38:01.756 +01:00 [INF] Executing endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:38:01.764 +01:00 [INF] Route matched with {action = "GetAllContacts", controller = "ContactBookAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MyPersonalProject.Models.Dto.ContactDto]] GetAllContacts() on controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject).
+2023-04-16 23:38:01.764 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-16 23:38:01.764 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-04-16 23:38:01.765 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-04-16 23:38:01.765 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-16 23:38:01.765 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-04-16 23:38:01.765 +01:00 [DBG] Executing controller factory for controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject)
+2023-04-16 23:38:01.766 +01:00 [DBG] Executed controller factory for controller MyPersonalProject.Controllers.ContactBookAPI (MyPersonalProject)
+2023-04-16 23:38:01.767 +01:00 [INF] Getting all contacts
+2023-04-16 23:38:01.771 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-04-16 23:38:01.780 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-04-16 23:38:01.781 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-04-16 23:38:01.782 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyPersonalProject.Models.Dto.ContactDto, MyPersonalProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-16 23:38:01.801 +01:00 [INF] Executed action MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject) in 26.7555ms
+2023-04-16 23:38:01.803 +01:00 [INF] Executed endpoint 'MyPersonalProject.Controllers.ContactBookAPI.GetAllContacts (MyPersonalProject)'
+2023-04-16 23:38:01.803 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7034/api/Contacts - - - 200 - application/json;+charset=utf-8 66.8788ms
